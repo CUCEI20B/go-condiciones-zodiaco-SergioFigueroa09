@@ -6,8 +6,8 @@ func main() {
 	var mes int
 	var dia int
 
-	fmt.Scan(&mes)
 	fmt.Scan(&dia)
+	fmt.Scan(&mes)
 
 	if mes == 12 && dia >= 22 && dia <= 31 || mes == 1 && dia >= 1 && dia <= 20 {
 		fmt.Println("capricornio")
